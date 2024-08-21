@@ -1,6 +1,6 @@
 # projetos_end_to_end
 
-Nossos de dados projetos end-to-end, vão desde a coleta de dados, modelagem, até a entrega de um produto final.
+Nossos Projetos de dados end-to-end, vão desde a coleta de dados, modelagem, até a entrega de um produto final, usando as stacks de dados que criamos.
 
 Vamos dar várias dicas e truques para você se tornar um analista de dados completo.
 
