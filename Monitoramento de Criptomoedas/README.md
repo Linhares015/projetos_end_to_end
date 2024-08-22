@@ -89,34 +89,77 @@ graph LR
     - Criar DAG no Airflow
     - Crie um arquivo DAG no Airflow para orquestrar as tarefas de ETL:
 ```python
+from datetime import timedelta
 from airflow import DAG
-from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
-from datetime import datetime
-from airbyte_api import AirbyteClient
+from airflow.utils.dates import days_ago
+import requests
+from requests.auth import HTTPBasicAuth
+import logging
+import time
 
 default_args = {
     'owner': 'airflow',
-    'start_date': datetime(2023, 1, 1),
+    'depends_on_past': False,
+    'email_on_failure': False,
+    'email_on_retry': False,
     'retries': 1,
+    'retry_delay': timedelta(minutes=5),
 }
 
-def run_airbyte_sync():
-    client = AirbyteClient(
-        airbyte_url='http://localhost:8000',
-        airbyte_api_key='sua_chave_api'
-    )
-    client.trigger_sync(connection_id='sua_conexao_id')
+def trigger_airbyte_crypto():
+    airbyte_connection_id = '3ad7e960-3179-45fd-8e2c-823344469abb'
+    airbyte_crypto_url = 'http://IP:8001/api/v1/connections/sync'
+    airbyte_job_status_url = 'http://IP:8001/api/v1/jobs/get'
+    headers = {'Content-Type': 'application/json'}
+    payload = {'connectionId': airbyte_connection_id}
+    
+    auth = HTTPBasicAuth('airbyte', 'password')
+    
+    response = requests.post(airbyte_crypto_url, headers=headers, json=payload, auth=auth)
+    response.raise_for_status()
+    
+    job_id = response.json()['job']['id']
+    logging.info('Airbyte sync job started: %s', job_id)
+    
+    timeout = 3600
+    check_interval = 3
+    elapsed_time = 0
+    
+    while elapsed_time < timeout:
+        job_status_response = requests.post(airbyte_job_status_url, headers=headers, json={'id': job_id}, auth=auth)
+        job_status_response.raise_for_status()
+        job_status = job_status_response.json()['job']['status']
+        
+        if job_status == 'succeeded':
+            logging.info('Airbyte sync succeeded: %s', job_status_response.json())
+            return {'job_id': job_id, 'status': 'succeeded'}
+        elif job_status == 'failed':
+            logging.error('Airbyte sync failed: %s', job_status_response.json())
+            raise Exception('Airbyte sync failed')
+        else:
+            logging.info('Airbyte sync in progress: %s', job_status)
+            time.sleep(check_interval)
+            elapsed_time += check_interval
+    
+    raise Exception('Airbyte sync timed out')
 
-with DAG('crypto_etl', default_args=default_args, schedule_interval='@hourly') as dag:
-    start = DummyOperator(task_id='start')
-    run_sync = PythonOperator(
-        task_id='run_airbyte_sync',
-        python_callable=run_airbyte_sync
-    )
-    end = DummyOperator(task_id='end')
+with DAG(
+    'airbyte_crypto_dag',
+    default_args=default_args,
+    description='DAG to trigger Airbyte sync',
+    schedule_interval=timedelta(days=1),
+    start_date=days_ago(1),
+    tags=['airbyte','Postgres_DW','crypto_data'],
+) as dag:
 
-    start >> run_sync >> end
+    run_airbyte_crypto = PythonOperator(
+        task_id='run_airbyte_crypto',
+        python_callable=trigger_airbyte_crypto,
+    )
+
+    run_airbyte_crypto
+
 ```
 4. Configuração do PostgreSQL
 Configurar Esquemas e Tabelas
