@@ -8,7 +8,7 @@ Quer desenvolver um projeto end-to-end com a gente? Entre em contato conosco. [s
 
 ## Projetos
 
-- [Monitoramento de Criptomoedas](/Monitoramento%20de%20Criptomoedas/README.md)
+- [Monitoramento de Criptomoedas](/Covid_19/README.md)
 
 Selo:
 
