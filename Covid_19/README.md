@@ -93,7 +93,7 @@ definitions:
           type: RecordSelector
           extractor:
             type: DpathExtractor
-            field_path: []
+            field_path: ['results']  # Atualizei o caminho para acessar o array "results"
       schema_loader:
         type: InlineSchemaLoader
         schema:
@@ -135,9 +135,8 @@ metadata:
       - authenticator
   testedStreams:
     caso:
-      streamHash: ada76e961edbf298e4ca03ac480196f6343b6cbc
+      streamHash: 53f6da050b804820dfceede3b1136c91b7961b97
       hasResponse: true
-      responsesAreSuccessful: true
       hasRecords: true
       primaryKeysArePresent: true
       primaryKeysAreUnique: true
@@ -146,80 +145,60 @@ schemas:
   caso:
     type: object
     $schema: http://json-schema.org/schema#
+    additionalProperties: true
     properties:
-      count:
+      city:
+        type:
+          - string
+          - 'null'
+      city_ibge_code:
+        type:
+          - string
+          - 'null'
+      confirmed:
         type:
           - number
           - 'null'
-      next:
+      confirmed_per_100k_inhabitants:
+        type:
+          - number
+          - 'null'
+      date:
         type:
           - string
           - 'null'
-      previous:
+      death_rate:
+        type:
+          - number
+          - 'null'
+      deaths:
+        type:
+          - number
+          - 'null'
+      estimated_population:
+        type:
+          - number
+          - 'null'
+      estimated_population_2019:
+        type:
+          - number
+          - 'null'
+      is_last:
+        type:
+          - boolean
+          - 'null'
+      order_for_place:
+        type:
+          - number
+          - 'null'
+      place_type:
         type:
           - string
           - 'null'
-      results:
-        type: array
-        items:
-          type: object
-          properties:
-            city_ibge_code:
-              type:
-                - string
-                - 'null'
-            confirmed:
-              type:
-                - number
-                - 'null'
-            confirmed_per_100k_inhabitants:
-              type:
-                - number
-                - 'null'
-            date:
-              type:
-                - string
-                - 'null'
-            death_rate:
-              type:
-                - number
-                - 'null'
-            deaths:
-              type:
-                - number
-                - 'null'
-            estimated_population:
-              type:
-                - number
-                - 'null'
-            estimated_population_2019:
-              type:
-                - number
-                - 'null'
-            is_last:
-              type:
-                - boolean
-                - 'null'
-            order_for_place:
-              type:
-                - number
-                - 'null'
-            place_type:
-              type:
-                - string
-                - 'null'
-            state:
-              type:
-                - string
-                - 'null'
-          required:
-            - city_ibge_code
-            - confirmed
-            - date
-            - state
-    required:
-      - results
-    additionalProperties: true
+      state:
+        type:
+          - string
+          - 'null'
 ```
 </details>
 
