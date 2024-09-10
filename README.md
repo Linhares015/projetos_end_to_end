@@ -9,6 +9,7 @@ Quer desenvolver um projeto end-to-end com a gente? Entre em contato conosco. [s
 ## Projetos
 
 - [COVID-19](/Covid_19/README.md)
+    - [Vídeo Parte 1](https://youtu.be/ZjVKkVJZNus)
 
 Selo:
 
