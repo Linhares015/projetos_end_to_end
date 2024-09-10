@@ -4,6 +4,12 @@ Este projeto cria um pipeline de dados para coletar, armazenar, transformar e vi
 
 Os dados são `coletados`, `transformados`, `armazenados` e `visualizados` em um painel de Business Intelligence (BI).
 
+## Videos do Projeto
+
+- [Vídeo 1 - Parte 1](https://youtu.be/ZjVKkVJZNus)
+- [Vídeo 2 - Parte 2](https://youtu.be/7mIk_X3M2K0)
+
+
 ## Arquitetura do Projeto
 
 ```mermaid
