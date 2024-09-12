@@ -8,6 +8,7 @@ Os dados são `coletados`, `transformados`, `armazenados` e `visualizados` em um
 
 - [Vídeo 1 - Parte 1](https://youtu.be/ZjVKkVJZNus)
 - [Vídeo 2 - Parte 2](https://youtu.be/7mIk_X3M2K0)
+- [Vídeo 3 - Final](https://youtu.be/6pAruuIki9E)
 
 
 ## Arquitetura do Projeto
