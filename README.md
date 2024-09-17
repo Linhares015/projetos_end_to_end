@@ -1,14 +1,77 @@
-# projetos_end_to_end
+Seja bem-vindo ao meu repositório de projetos de dados. 👷‍♂️
 
-Nossos Projetos de dados end-to-end, vão desde a coleta de dados, modelagem, até a entrega de um produto final, usando as stacks de dados que criamos.
+# Sobre mim
 
-Vamos dar várias dicas e truques para você se tornar um analista de dados completo.
+Meu nome é Tiago Linhares, sou um engenheiro de dados e sócio na [Insight Core](https://insightcore.tech/).
 
-Quer desenvolver um projeto end-to-end com a gente? Entre em contato conosco. [site](https://insightcore.tech/)
+Estou sempre desenvolvendo projetos de dados para ajudar empresas a tomarem decisões mais assertivas.
+
+Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para aplicar meus conhecimentos e ajudar a comunidade de dados.
 
 # Projetos
 
+- ## [Projeto Athena - Stack de dados](https://github.com/Linhares015/athena_stack_infra)
+
+    - ### Objetivo
+        Evoluir a stack de dados comumente utilizada quando as empresas iniciam na área de dados, para uma stack moderna, para que a equipe de dados possa ter mais autonomia e escalabilidade.
+
+    - ### Tecnologias Utilizadas
+        - ![Apache Hop](https://img.shields.io/badge/Apache%20Hop-ETL-blue)
+        - ![Postgres](https://img.shields.io/badge/Postgres-Database-blue)
+        - ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-blue)
+        - ![Linux](https://img.shields.io/badge/Linux-Operating%20System-blue)
+        - ![Docker](https://img.shields.io/badge/Docker-Container-blue)
+        - ![Git](https://img.shields.io/badge/git-Version%20Control-blue)
+        - ![Airbyte](https://img.shields.io/badge/Airbyte-Data%20Integration-blue)
+        - ![Airflow](https://img.shields.io/badge/Airflow-Data%20Pipeline-blue)
+        - ![Dbt](https://img.shields.io/badge/Dbt-Data%20Modeling-blue)
+        - ![Grafana](https://img.shields.io/badge/Grafana-Data%20Visualization-blue)
+        - ![Metabase](https://img.shields.io/badge/Metabase-Data%20Visualization-blue)
+
+- ## [Curso SQL](https://github.com/Linhares015/curso_sql)
+    
+    - ### Objetivo
+        Ensinar SQL do básico ao avançado, com exemplos práticos e exercícios.
+
+    - ### Tecnologias Utilizadas
+        - ![SQL](https://img.shields.io/badge/SQL-Database-blue)
+        - ![Postgres](https://img.shields.io/badge/Postgres-Database-blue)
+        - ![Docker](https://img.shields.io/badge/Docker-Container-blue)
+        - ![Dbeaver](https://img.shields.io/badge/Dbeaver-Database%20Tool-blue)
+
+- ## [Sql Anti Padrões](https://github.com/Linhares015/sql_anti_padroes)
+
+    - ### Objetivo
+        Destacar práticas comuns, mas ineficientes, em SQL e como corrigi-las. É destinado a desenvolvedores que estão aprendendo a otimizar suas consultas.
+
+    - ### Tecnologias Utilizadas
+        - ![SQL](https://img.shields.io/badge/SQL-Database-blue)
+
+- ## [Desafio SQL 30 dias](https://github.com/Linhares015/desafio_sql_30_dias)
+
+    - ### Objetivo
+        Desafio de 30 dias para aprender SQL, com exemplos práticos e exercícios.
+
+    - ### Tecnologias Utilizadas
+        - ![SQL](https://img.shields.io/badge/SQL-Database-blue)
+        - ![Postgres](https://img.shields.io/badge/Postgres-Database-blue)
+        - ![Docker](https://img.shields.io/badge/Docker-Container-blue)
+        - ![Dbeaver](https://img.shields.io/badge/Dbeaver-Database%20Tool-blue)
+
+- ## [Adventure Project](https://github.com/Linhares015/adventure-project)
+
+    - ### Objetivo
+        Projeto de dados para simular um ambiente de uma empresa fictícia, com dados de vendas, financeiro, marketing e operações.
+
+    - ### Tecnologias Utilizadas
+        - ![SQL](https://img.shields.io/badge/SQL-Database-blue)
+        - ![Postgres](https://img.shields.io/badge/Postgres-Database-blue)
+        - ![Dbt](https://img.shields.io/badge/Dbt-Data%20Modeling-blue)
+
 - ## [Projeto - COVID-19](/Covid_19/README.md)
+
+    - ### Objetivo
+        Projeto de dados para analisar os dados da COVID-19 no Brasil.
 
     - ### Tecnologias Utilizadas
         - ![Api](https://img.shields.io/badge/Api-Flask-blue)
@@ -23,7 +86,10 @@ Quer desenvolver um projeto end-to-end com a gente? Entre em contato conosco. [s
         - [Vídeo Parte 2](https://youtu.be/7mIk_X3M2K0)
         - [Vídeo Parte 3 - Final](https://youtu.be/6pAruuIki9E)
 
-- ## [Projeto - Robô envio de alertas Telegram](/Robo_telegram/README.md)
+- ## [Projeto - Robô envio de alertas Telegram](/Robo_telegram/README.md) - Em desenvolvimento
+
+    - ### Objetivo
+        Projeto de dados para ler e analisar e-mails para poder enviar alertas de dados para um grupo no Telegram.
 
     - ### Tecnologias Utilizadas
         - ![Apache Hop](https://img.shields.io/badge/Apache%20Hop-ETL-blue)
@@ -33,8 +99,7 @@ Quer desenvolver um projeto end-to-end com a gente? Entre em contato conosco. [s
         - ![Docker](https://img.shields.io/badge/Docker-Container-blue)
 
     - ### Aulas Youtube
-        - [Vídeo Parte 1](https://youtu.be/7mIk_X3M2K0)
-        - [Vídeo Parte 2 - Final](https://youtu.be/6pAruuIki9E)
+
 
 
 Selo:

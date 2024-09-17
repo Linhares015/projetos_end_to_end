@@ -33,22 +33,15 @@ graph TD
     D -->|Orquestrando Apache Hop| B
 ```
 
-## Pré-requisitos
-
-- Docker
-- Docker Compose
-- Conta no Telegram
-- Conta no Gmail
-
 ## Configuração
 
-### Configuração do Telegram
+- ### Configuração do Telegram
 
 1. Acesse o Telegram e procure por `BotFather`
 2. Crie um novo bot com o comando `/newbot`
 3. Copie o token gerado
 
-### Configuração do Gmail
+- ### Configuração do Gmail
 
 1. Acesse o Gmail e ative o acesso a aplicativos menos seguros
 2. Copie o e-mail e senha
