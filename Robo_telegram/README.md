@@ -45,3 +45,17 @@ graph TD
 
 1. Acesse o Gmail e ative o acesso a aplicativos menos seguros
 2. Copie o e-mail e senha
+3. Ative a autenticação em dois fatores
+4. Pesquise app password e crie uma senha para o Apache Hop
+5. Ative o pop3 nas configurações do Gmail
+
+- ### Configuração do Apache Hop
+
+1. Use o step input email para ler os e-mails
+configuração:
+    - Protocolo: pop3
+    - Servidor: pop.gmail.com
+    - Porta: 995
+    - Usuário: seu e-mail
+    - Senha: senha do app que você criou la no Gmail
+    - SSL: true

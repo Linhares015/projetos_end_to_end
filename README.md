@@ -99,9 +99,9 @@ Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para 
         - ![Docker](https://img.shields.io/badge/Docker-Container-blue)
 
     - ### Aulas Youtube
-
+l       - [Vídeo Parte 1 - Ingestão de dados do e-mail via apache hop](https://youtu.be/-Ng0xpuSvNA)
 
 
 Selo:
 
-[<img src="img/image.webp" width="100" height="100">](https://github.com/Linhares015)
+[<img src="z_img/image.webp" width="100" height="100">](https://github.com/Linhares015)
