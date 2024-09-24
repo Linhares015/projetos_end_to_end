@@ -50,6 +50,7 @@ graph TD
 5. Ative o pop3 nas configurações do Gmail
 
 - ### Configuração do Apache Hop
+[repositório com os arquivos](https://github.com/Linhares015/apche_hop_cargas)
 
 1. Use o step input email para ler os e-mails
 configuração:
