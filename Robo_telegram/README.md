@@ -1,4 +1,18 @@
 # Projeto Robô envio de alertas Telegram
+- [repositório com os arquivos](https://github.com/Linhares015/apche_hop_cargas)
+    - ### Objetivo
+        Projeto de dados para ler e analisar e-mails para poder enviar alertas de dados para um grupo no Telegram.
+
+    - ### Tecnologias Utilizadas
+        - ![Apache Hop](https://img.shields.io/badge/Apache%20Hop-ETL-blue)
+        - ![JavaScript](https://img.shields.io/badge/JavaScript-Programming-blue)
+        - ![Telegram](https://img.shields.io/badge/Telegram-Chatbot-blue)
+        - ![Airflow](https://img.shields.io/badge/Airflow-Data%20Pipeline-blue)
+        - ![Docker](https://img.shields.io/badge/Docker-Container-blue)
+
+    - ### Aulas Youtube
+        - [Vídeo Parte 1 - Ingestão de dados do e-mail via apache hop](https://youtu.be/-Ng0xpuSvNA)
+        - [Vídeo Parte 2 - Loop de envio ao telegram via apache hop](https://youtu.be/6-WaTLmzj9s)
 
 ## Solicitação do cliente
 
@@ -50,7 +64,6 @@ graph TD
 5. Ative o pop3 nas configurações do Gmail
 
 - ### Configuração do Apache Hop
-[repositório com os arquivos](https://github.com/Linhares015/apche_hop_cargas)
 
 1. Use o step input email para ler os e-mails
 configuração:
