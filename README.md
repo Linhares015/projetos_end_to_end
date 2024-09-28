@@ -102,6 +102,13 @@ Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para 
         - [Vídeo Parte 1 - Ingestão de dados do e-mail via apache hop](https://youtu.be/-Ng0xpuSvNA)
         - [Vídeo Parte 2 - Loop de envio ao telegram via apache hop](https://youtu.be/6-WaTLmzj9s)
 
+- ## [Projeto - SQL Database Specialist](https://github.com/Linhares015/modelo_er_projeto)
+
+    - ### Objetivo
+        Projeto de dados para modelar um banco de dados de empresas fictícias, para aplicar os conceitos de modelagem de dados.
+
+    - ### Tecnologias Utilizadas
+        - ![SQL](https://img.shields.io/badge/SQL-Database-blue)
 
 Selo:
 
