@@ -59,3 +59,37 @@ configuração:
     - Usuário: seu e-mail
     - Senha: senha do app que você criou la no Gmail
     - SSL: true
+
+- ### Configurações da imagem Docker
+
+1. Criar uma imagem que seja capaz de executar o Apache Hop e nossos projetos nele com um entrypoint;
+
+2. Build da imagem;
+
+3. Tag da imagem;
+
+4. Push da imagem;
+
+5. Tag no repositório do GitHub;
+
+6. Automatizar o build e push da imagem via GitHub Actions;
+
+7. Configuração do Airflow para executar a imagem;
+
+## Arquitetura Final do Projeto
+
+```mermaid
+graph TD
+    Devs[Desenvolvedores] --> A[GitHub Repositório de Cargas Apache Hop]
+    A --> B[Build e Push CI/CD]
+    B --> C[Imagem Docker]
+    C --> D[Docker Hub]
+    D --> E[Airflow]
+    E --> F[Chama o Container com a Imagem]
+    F --> G[Container Executa a Carga e Desliga]
+
+    %% Adicionando labels descritivos para o fluxo
+    B ---|Envia Imagem| C
+    D ---|Baixa Imagem| E
+    E ---|Executa o Container| F
+```
