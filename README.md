@@ -100,6 +100,7 @@ Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para 
 
     - ### Aulas Youtube
         - [Vídeo Parte 1 - Ingestão de dados do e-mail via apache hop](https://youtu.be/-Ng0xpuSvNA)
+        - [Vídeo Parte 2 - Loop de envio ao telegram via apache hop](https://youtu.be/6-WaTLmzj9s)
 
 - ## [Projeto - SQL Database Specialist](https://github.com/Linhares015/modelo_er_projeto)
 
