@@ -29,7 +29,7 @@ Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para 
         - ![Metabase](https://img.shields.io/badge/Metabase-Data%20Visualization-blue)
 
 - ## [Curso SQL](https://github.com/Linhares015/curso_sql)
-    
+
     - ### Objetivo
         Ensinar SQL do básico ao avançado, com exemplos práticos e exercícios.
 
@@ -101,6 +101,7 @@ Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para 
     - ### Aulas Youtube
         - [Vídeo Parte 1 - Ingestão de dados do e-mail via apache hop](https://youtu.be/-Ng0xpuSvNA)
         - [Vídeo Parte 2 - Loop de envio ao telegram via apache hop](https://youtu.be/6-WaTLmzj9s)
+        - [Vídeo Parte 3 - Apache hop rodando no Docker com imagem personalizada](https://youtu.be/Ka29D5UCed4)
 
 - ## [Projeto - SQL Database Specialist](https://github.com/Linhares015/modelo_er_projeto)
 
