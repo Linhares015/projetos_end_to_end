@@ -21,7 +21,7 @@ Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para 
         - ![csv](https://img.shields.io/badge/csv-Data-blue)
         - ![Apache Hop](https://img.shields.io/badge/apache%20hop-ETL-blue)
         - ![Postgres](https://img.shields.io/badge/Postgres-Database-blue)
-        - ![Briefer](https://img.shields.io/badge/Briefer-Data%20Visualization-blue)
+        - ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Viz-blue)
 
     - ### Aulas Youtube
         - [Vídeo Parte 1](https://youtu.be/1Q1w1J1Y1Qw)
