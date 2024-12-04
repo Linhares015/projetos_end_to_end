@@ -13,6 +13,7 @@
     - ### Aulas Youtube
         - [Vídeo Parte 1 - Ingestão de dados do e-mail via apache hop](https://youtu.be/-Ng0xpuSvNA)
         - [Vídeo Parte 2 - Loop de envio ao telegram via apache hop](https://youtu.be/6-WaTLmzj9s)
+        - [Vídeo Parte 3 - Apache hop rodando no Docker com imagem personalizada](https://youtu.be/Ka29D5UCed4)
 
 ## Solicitação do cliente
 

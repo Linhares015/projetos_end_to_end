@@ -1,3 +1,5 @@
+[<img src="z_img/image.webp" width="100" height="100">](https://www.youtube.com/@TiagoLinhares015)
+
 Seja bem-vindo ao meu repositório de projetos de dados. 👷‍♂️
 
 # Sobre mim
@@ -8,7 +10,22 @@ Estou sempre desenvolvendo projetos de dados para ajudar empresas a tomarem deci
 
 Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para aplicar meus conhecimentos e ajudar a comunidade de dados.
 
-# Projetos
+# Projetos de Dados
+
+- ## [Projeto Zero Inadimplência](/zero_inadimplencia/README.md) - Dez/2024 - Em andamento
+
+    - ### Objetivo
+        Projeto de dados para controlar a inadimplência de clientes de uma empresa.
+
+    - ### Tecnologias Utilizadas
+        - ![csv](https://img.shields.io/badge/csv-Data-blue)
+        - ![Apache Hop](https://img.shields.io/badge/apache%20hop-ETL-blue)
+        - ![Postgres](https://img.shields.io/badge/Postgres-Database-blue)
+        - ![Briefer](https://img.shields.io/badge/Briefer-Data%20Visualization-blue)
+
+    - ### Aulas Youtube
+        - [Vídeo Parte 1](https://youtu.be/1Q1w1J1Y1Qw)
+        - [Vídeo Parte 2](https://youtu.be/1Q1w1J1Y1Qw)
 
 - ## [Projeto Athena - Stack de dados](https://github.com/Linhares015/athena_stack_infra)
 
@@ -86,7 +103,7 @@ Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para 
         - [Vídeo Parte 2](https://youtu.be/7mIk_X3M2K0)
         - [Vídeo Parte 3 - Final](https://youtu.be/6pAruuIki9E)
 
-- ## [Projeto - Robô envio de alertas Telegram](/Robo_telegram/README.md) - Em desenvolvimento
+- ## [Projeto - Robô envio de alertas Telegram](/Robo_telegram/README.md)
 
     - ### Objetivo
         Projeto de dados para ler e analisar e-mails para poder enviar alertas de dados para um grupo no Telegram.
