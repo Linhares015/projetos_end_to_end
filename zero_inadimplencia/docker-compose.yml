@@ -1,0 +1,41 @@
+version: '3.7'
+
+services:
+  postgres_secondary:  # Nome do serviço alterado
+    image: postgres:latest
+    container_name: postgres_secondary  # Nome do contêiner alterado
+    environment:
+      POSTGRES_PASSWORD: postgres015
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"  # Mapeando a porta 5433 do host para a porta 5432 do contêiner
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 2g
+        reservations:
+          cpus: '0.5'
+          memory: 1g
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  pgdata:
+    driver: local
+
+networks:
+  default:
+    driver: bridge
