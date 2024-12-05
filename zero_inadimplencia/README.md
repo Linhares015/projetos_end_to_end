@@ -12,8 +12,7 @@
         - ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Viz-blue)
 
     - ### Aulas Youtube
-        - [Vídeo Parte 1](https://youtu.be/1Q1w1J1Y1Qw)
-        - [Vídeo Parte 2](https://youtu.be/1Q1w1J1Y1Qw)
+        - [Vídeo Parte 1 - Introdução](https://youtu.be/b8FCd9gwoBw)
 
 - ## Solicitação do cliente
 

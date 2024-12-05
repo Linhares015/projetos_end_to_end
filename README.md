@@ -24,8 +24,7 @@ Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para 
         - ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Viz-blue)
 
     - ### Aulas Youtube
-        - [Vídeo Parte 1](https://youtu.be/1Q1w1J1Y1Qw)
-        - [Vídeo Parte 2](https://youtu.be/1Q1w1J1Y1Qw)
+        - [Vídeo Parte 1 - Introdução](https://youtu.be/b8FCd9gwoBw)
 
 - ## [Projeto Athena - Stack de dados](https://github.com/Linhares015/athena_stack_infra)
 
