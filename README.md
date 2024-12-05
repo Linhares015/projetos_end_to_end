@@ -20,6 +20,7 @@ Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para 
     - ### Tecnologias Utilizadas
         - ![csv](https://img.shields.io/badge/csv-Data-blue)
         - ![Apache Hop](https://img.shields.io/badge/apache%20hop-ETL-blue)
+        - ![SQL](https://img.shields.io/badge/SQL-Database-blue)
         - ![Postgres](https://img.shields.io/badge/Postgres-Database-blue)
         - ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Viz-blue)
 
