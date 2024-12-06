@@ -9,11 +9,12 @@
         - ![csv](https://img.shields.io/badge/csv-Data-blue)
         - ![Apache Hop](https://img.shields.io/badge/apache%20hop-ETL-blue)
         - ![SQL](https://img.shields.io/badge/SQL-Database-blue)
-        - ![Postgres](https://img.shields.io/badge/Postgres-Database-blue)
+        - ![BigQuery](https://img.shields.io/badge/BigQuery-Database-blue)
         - ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Viz-blue)
 
     - ### Aulas Youtube
         - [Vídeo Parte 1 - Introdução](https://youtu.be/b8FCd9gwoBw)
+        - [Vídeo Parte 2 - Preparando Ambiente](https://youtu.be/tRxCThPRTKU)
 
 - ## Solicitação do cliente
 

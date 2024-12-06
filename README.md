@@ -12,7 +12,7 @@ Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para 
 
 # Projetos de Dados
 
-- ## [Projeto Zero Inadimplência](/zero_inadimplencia/README.md) - Dez/2024 - Em andamento
+- ## [Projeto Zero Inadimplência](/zero_inadimplencia/) - Dez/2024 - Em andamento
 
     - ### Objetivo
         Projeto de dados para controlar a inadimplência de clientes de uma empresa.
@@ -21,11 +21,12 @@ Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para 
         - ![csv](https://img.shields.io/badge/csv-Data-blue)
         - ![Apache Hop](https://img.shields.io/badge/apache%20hop-ETL-blue)
         - ![SQL](https://img.shields.io/badge/SQL-Database-blue)
-        - ![Postgres](https://img.shields.io/badge/Postgres-Database-blue)
+        - ![BigQuery](https://img.shields.io/badge/BigQuery-Database-blue)
         - ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Viz-blue)
 
     - ### Aulas Youtube
         - [Vídeo Parte 1 - Introdução](https://youtu.be/b8FCd9gwoBw)
+        - [Vídeo Parte 2 - Preparando Ambiente](https://youtu.be/tRxCThPRTKU)
 
 - ## [Projeto Athena - Stack de dados](https://github.com/Linhares015/athena_stack_infra)
 
