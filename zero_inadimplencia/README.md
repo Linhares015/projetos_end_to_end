@@ -15,6 +15,7 @@
     - ### Aulas Youtube
         - [Vídeo Parte 1 - Introdução](https://youtu.be/b8FCd9gwoBw)
         - [Vídeo Parte 2 - Preparando Ambiente](https://youtu.be/tRxCThPRTKU)
+        - [Vídeo Parte 3 - Extraindo Excel para o Banco de Dados](https://youtu.be/C9XjXdyVVRQ)
 
 - ## Solicitação do cliente
 
