@@ -28,6 +28,7 @@ Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para 
         - [Vídeo Parte 1 - Introdução](https://youtu.be/b8FCd9gwoBw)
         - [Vídeo Parte 2 - Preparando Ambiente](https://youtu.be/tRxCThPRTKU)
         - [Vídeo Parte 3 - Extraindo Excel para o Banco de Dados](https://youtu.be/C9XjXdyVVRQ)
+        - [Vídeo PArte 4 - Modelagem de dados SQL no Apache Hop](https://youtu.be/vdwLWdIK7fc)
 
 - ## [Projeto Athena - Stack de dados](https://github.com/Linhares015/athena_stack_infra)
 
