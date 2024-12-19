@@ -4,7 +4,7 @@ Seja bem-vindo ao meu repositório de projetos de dados. 👷‍♂️
 
 # Sobre mim
 
-Meu nome é Tiago Linhares, sou um engenheiro de dados e sócio na [Insight Core](https://insightcore.tech/).
+Meu nome é Tiago Linhares, estou estudando para ser engenheiro de dados.
 
 Estou sempre desenvolvendo projetos de dados para ajudar empresas a tomarem decisões mais assertivas.
 
