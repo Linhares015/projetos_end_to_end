@@ -1,0 +1,43 @@
+
+version: "3.3"
+
+services: 
+  apache-nifi:
+    environment:
+      - SINGLE_USER_CREDENTIALS_USERNAME=nifi
+      - SINGLE_USER_CREDENTIALS_PASSWORD=HGd15bvfv8744ghbdhgdv7895agqERAo
+      - TZ=America/Sao_Paulo
+    image: apache/nifi:1.23.0
+    container_name: apache-nifi
+    ports:
+      - "8443:8443"
+    deploy:
+      resources:
+        limits:
+          cpus: "0.95"
+          memory: 4G
+    restart: on-failure
+    volumes: 
+      - ./nifi/jdbc:/opt/nifi/nifi-current/jdbc
+      - nifi-logs:/opt/nifi/nifi-current/logs
+      - nifi-conf:/opt/nifi/nifi-current/conf
+      - nifi-state:/opt/nifi/nifi-current/state
+      - nifi-content:/opt/nifi/nifi-current/content_repository
+      - nifi-database:/opt/nifi/nifi-current/database_repository
+      - nifi-flowfile:/opt/nifi/nifi-current/flowfile_repository
+      - nifi-provenance:/opt/nifi/nifi-current/provenance_repository
+    networks:
+      - nifi-network
+
+volumes:
+    nifi-logs:
+    nifi-conf:
+    nifi-state:
+    nifi-content:
+    nifi-database:
+    nifi-flowfile:
+    nifi-provenance:
+
+networks:
+  nifi-network:
+    driver: bridge
