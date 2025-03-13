@@ -11,8 +11,23 @@ Estou sempre desenvolvendo projetos de dados para ajudar empresas a tomarem deci
 Abaixo você encontra uma lista dos meus projetos de dados que desenvolvi, para aplicar meus conhecimentos e ajudar a comunidade de dados.
 
 # Projetos de Dados
+- ## [Projeto - Airflow + DBT - Deu Casamento](https://github.com/Linhares015/projeto_airflow_dbt)
 
-- ## [Projeto Zero Inadimplência](/zero_inadimplencia/) - Dez/2024 - Em andamento
+    - ### Objetivo
+        Projeto de dados feito para mostrar a união de duas ferramentas muito poderosas, Airflow e DBT, para orquestrar e modelar dados.
+
+    - ### Tecnologias Utilizadas
+        - ![Airflow](https://img.shields.io/badge/Airflow-Data%20Pipeline-blue)
+        - ![DBT](https://img.shields.io/badge/DBT-Data%20Modeling-blue)
+        - ![Docker](https://img.shields.io/badge/Docker-Container-blue)
+        - ![Astro CLI](https://img.shields.io/badge/Astro%20CLI-Data%20Pipeline-blue)
+
+    - ### Aulas Youtube
+        - [Vídeo Parte 1 - Introdução](https://youtu.be/k-XcMH4P_34)
+        - [Vídeo Parte 2 - Hands On - Configurando o Ambiente e Gerando DAG com BashOperator](https://youtu.be/1J9Q6J9Q9ZQ)
+        - [Vídeo Parte 3 - Hands On - Cosmos](https://youtu.be/BI5HsgviSRQ)
+
+- ## [Projeto Zero Inadimplência](/zero_inadimplencia/)
 
     - ### Objetivo
         Projeto de dados para controlar a inadimplência de clientes de uma empresa.
